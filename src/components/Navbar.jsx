@@ -8,7 +8,7 @@ import sideicon from "../../public/sideicon.jpeg";
 
 function Navbar() {
   return (
-    <div className="flex justify-between px-6 py-2">
+    <div className="flex justify-between fixed top-0 w-[100%] bg-white  px-6 py-2">
       <div className=" flex space-x-4 items-center">
         <IoMenu className="size-6 cursor-pointer hover:bg-gray-200" />
         <img src={logo} className="w-24 cursor-pointer" />
